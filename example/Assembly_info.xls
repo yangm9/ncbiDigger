@@ -1,0 +1,5 @@
+accession_id	isolation source	collection date	geographic location	sample type	type-material	metagenome-source	latitude and longitude	depth	isolate	broad-scale environmental context	environmental medium	note
+GCA_013202315.1	High-Arctic meromictic Lake A 	2017-07-18 	Canada:Ellesmere Island, Lake A	metagenomic assembly 	None	aquatic metagenome 	82.59 N 75.26 W	missing 	bin.685 	aquatic ecosystems [ENVO:00002030] 	not applicable 	None
+GCA_000404785.1	brackish water 	None	USA	None	None	None	None	None	None	None	None	single cell isolate 
+GCF_900141795.1	missing 	missing 	Japan	None	type strain of Sulfurivirga caldicuralii 	None	missing 	None	None	missing 	missing 	None
+GCF_000179315.1	None	None	None	None	None	None	None	None	None	None	None	None
