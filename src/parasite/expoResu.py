@@ -39,8 +39,8 @@ Description:
     Search the BioSample link by NCBI Assembly accession ID and extract the sampling information from NCBI BioSample.
 
 Usage: 
-    {sys.argv[0]} <accession_list> <out_dir>
-        <accession_list>: NCBI assembly accession list file, i.e., GCA_013202315.1\\nGCA_013202525.1\\n 
-        <out_dir>: output directory
-        <thread>: thread number
+    {sys.argv[0]} -i <accession_list> [-t <accession_type>] -o <out_dir>
+        -i <accession_list>: NCBI assembly accession list file, i.e., GCA_013202315.1\\nGCA_013202525.1\\n 
+        -t <accession_type>: Accession ID type, i.e., Assembly, Project
+        -o <out_dir>: output directory
 ''')
