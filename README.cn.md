@@ -35,12 +35,12 @@ unzip chromedriver_linux64.zip
     
 ncbiDigger.py -i <accession_list> [-t <accession_type>] -o <out_dir>
         <accession_list>: NCBI assembly accession list file, i.e., GCA_013202315.1\\nGCA_013202525.1\\n
-        <accession_type>: Accession ID type, i.e., Assembly, Project
+        <accession_type>: Accession ID type, i.e., Assembly, BioProject
         <out_dir>: output directory
 用法举例：
 ```
 ncbiDigger.py -i assembly.list -t Assembly -o .
-ncbiDigger.py -i project.list -t Project -o .
+ncbiDigger.py -i project.list -t BioProject -o .
 ```
 参见example目录中的脚本。
 

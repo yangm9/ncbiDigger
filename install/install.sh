@@ -1,5 +1,11 @@
 #!/bin/bash
 #Download the Google browser and install it
+if [[ ( $@ == "--help") ||  $@ == "-h" ]]
+then 
+    echo "Usage: $0 <installation_directory>"
+    exit 0
+fi
+
 cd $1
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
 rpm2cpio google-chrome-stable_current_x86_64.rpm | cpio -div
@@ -7,7 +13,6 @@ cd usr/bin
 unlink google-chrome*
 ln -s ../../opt/google/chrome/google-chrome
 ./google-chrome --version
-
 
 # install miniconda and python
 if [ -x "$(command -v python3)" ];

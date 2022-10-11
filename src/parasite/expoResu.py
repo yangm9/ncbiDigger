@@ -16,7 +16,7 @@ def outputInfo(opts):
     ASSELIST=open(opts.acce_file)
     INFO=open(acce_info_f,'w')
     INFOHEAD='\t'.join(InfoDict[acce_type_s])
-    INFO.write(f'accession_id\t{INFOHEAD}\n')
+    INFO.write(f'{acce_type_s}\t{INFOHEAD}\n')
     for accession in ASSELIST:
         accession=accession.strip()
         print(f'Processing {accession}')
