@@ -2,32 +2,30 @@
 
 ## 1 Description
 
+ncbiDigger is designed to get the information for some accession id. 
 
 ## 2 Software Architecture
 
 
 ## 3 Installation
 
+#### 3.1 Google Chrome and Chrome Driver 
+
 It is necessary to download and install the [Google Chrome](https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm) and the [Chrome Driver](https://chromedriver.chromium.org/downloads), and the bash scripts are as follows:
 ```
-#下载谷歌浏览器并安装
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm
-cd ~/software # 进入安装目录
-rpm2cpio google-chrome-stable_current_x86_64.rpm | cpio -div #解压安装rpm
-cd usr/bin # 进入程序所在目录
-unlink google-chrome* # 删除原有废弃链接
-ln -s ../../opt/google/chrome/google-chrome # 创建新的链接文件
-./google-chrome --version # 查看浏览器版本，显示为Google Chrome 97.0.4692.99
+cd ~/software
+rpm2cpio google-chrome-stable_current_x86_64.rpm | cpio -div
+cd usr/bin
+unlink google-chrome* # delete the original link 
+ln -s ../../opt/google/chrome/google-chrome # create a new link for google-chrome
+./google-chrome --version # print the version of Google Chrome，such as Google Chrome 97.0.4692.99
 
-#在当前目录下载对应版本的chromedriver
+#Download the corresponding version of chromedriver in the current directory.
 wget https://chromedriver.storage.googleapis.com/97.0.4692.71/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip
 ```
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
+#### 3.2 Dependency Installation
 
 ## 4 Instructions
 
