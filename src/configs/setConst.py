@@ -47,6 +47,6 @@ PROJINFODICT={
 }
 
 InfoDict={
-    'Project':PROJITEMTUPLE,
+    'BioProject':PROJITEMTUPLE,
     'Assembly':SAMPITEMTUPLE
 }

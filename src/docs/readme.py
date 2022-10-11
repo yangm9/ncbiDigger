@@ -6,9 +6,10 @@ def description(name):
 Name: {basename}
 Discription:
     A information digger for NCBI.
-    Search the BioSample link by NCBI Assembly accession ID and extract the sampling information from NCBI BioSample.
+    1) Search the BioSample link by NCBI Assembly accession ID and extract the sampling information from NCBI BioSample.
+    2) Fetch the BioProject infomation by accession ID from NCBI.
 Usage:
-    python {name} [opts] -o <output_dir>
+    python {name} -i <accession_id_list> [options] -o <output_dir>
 Author: 
     yangming, yangm9@icloud.com
 Version: 

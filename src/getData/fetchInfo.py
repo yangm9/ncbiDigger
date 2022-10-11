@@ -76,6 +76,6 @@ def genomeInfo(accession):
     return TabDict
 
 MethDict={
-    "Project":projInfo,
+    "BioProject":projInfo,
     "Assembly":genomeInfo
 }

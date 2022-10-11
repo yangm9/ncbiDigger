@@ -5,7 +5,8 @@ from src.parasite import expoResu
 
 def main():
     opts,args=getPara.optionSet() #接收外部参数
-    if not os.path.exists(opts.output_dir): os.makedirs(opts.output_dir)
+    if not os.path.exists(opts.output_dir):
+        os.makedirs(opts.output_dir)
     expoResu.outputInfo(opts)
     return 0
 
