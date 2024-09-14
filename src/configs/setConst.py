@@ -46,7 +46,17 @@ PROJINFODICT={
     '':None
 }
 
+PROTITEMTUPLE=('Keywords','Source','BioProject','BioSample')
+PROJINFODICT={
+    'Keywords':None,
+    'Source':None,
+    'BioProject':None,
+    'BioSample':None,
+    '':None
+}
 InfoDict={
     'BioProject':PROJITEMTUPLE,
-    'Assembly':SAMPITEMTUPLE
+    'BioSample':SAMPITEMTUPLE,
+    'Assembly':SAMPITEMTUPLE,
+    'Protein':PROTITEMTUPLE
 }

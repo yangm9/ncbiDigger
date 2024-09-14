@@ -14,7 +14,7 @@ def optionSet():
     parser.add_option(
         '-t','--acce_type',action='store',type='str',
         dest='acce_type',metavar='STR',default='Assembly',
-        help='NCBI登记编号(accession ID)类型，目前可选参数为"Assembly"和"BioProject"。'
+        help='NCBI登记编号(accession ID)类型，目前可选参数为"Assembly"、"BioProject"和"Protein"。'
     )
     parser.add_option(
         '-o','--output_dir',action='store',type='str',
